@@ -7,6 +7,13 @@ Aluno: Diego dos Santos Leite - RA 72350086 <br/>
 <b> API  para gerenciamento do cadastro de entregadores da empresa Dianome </b> <br/>
 Construída com o framework Spring, esta aplicação soluciona o problema nr. 1 proposto na sistematização. <br/>
 <br/>
+<b> Requisitos </b> <br/>
+- Java 21 <br/>
+- MySQL Server <br/>
+- Database: dianome <br/>
+- Username: root <br/>
+- Password: admin <br/>
+<br/>
 <b> Instruções para operação </b> <br/>
 Executar a classe EntregadoresApplication, presente em <i>entregadores/src/main/java/com/sistematizacao/entregadores</i>, em uma máquina virtual Java, com banco de dados MySQL instalado. <br/>
 Aviso: não foi implementada uma camada de visão para esta API, apenas os controladores e repositório, com o respectivo modelo de dados. <br/>
@@ -29,10 +36,3 @@ Seu acionamento ocorre por meio de requisições HTTP simples, com as seguintes 
    - Onde # é o número de identificação recebido no momento do cadastramento. <br/>
 <br/>
 Todas as funcionalidades acima podem ser testadas por meio de um cliente REST, como o Postman, simulando as requisições a serem feitas pela camada de visão a ser implementada. <br/>
-<br/>
-<b> Requisitos </b> <br/>
-- Java 21 <br/>
-- MySQL Server <br/>
-- Database: dianome <br/>
-- Username: root <br/>
-- Password: admin <br/>
