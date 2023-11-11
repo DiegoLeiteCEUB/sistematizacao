@@ -13,7 +13,12 @@ Aviso: não foi implementada uma camada de visão para esta API, apenas os contr
 Seu acionamento ocorre por meio de requisições HTTP simples, com as seguintes funcionalidades:
 1) Saudação inicial: acessar http://localhost:8080
 2) Cadastrar um entregador: http://localhost:8080/entregadores (método POST)
-   - Exemplo de formulário JSON válido: {"cpf":"11122233344","nome":"Fulano de Tal","capacidadeVeiculo":"9999.99"}
+   - Exemplo de formulário JSON válido: <br/>
+     { <br/>
+       "cpf":"11122233344", <br/>
+       "nome":"Fulano de Tal", <br/>
+       "capacidadeVeiculo":"9999.99" <br/>
+     } <br/>
 4) Listar todos os entregadores cadastrados: http://localhost:8080/entregadores (método GET)
 5) Detalhar um entregador específico: http://localhost:8080/entregadores/# (método GET)
    - Onde # é o número de identificação recebido no momento do cadastramento.
