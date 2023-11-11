@@ -28,7 +28,7 @@ Seu acionamento ocorre por meio de requisições HTTP simples, com as seguintes 
 9) Excluir um entregador do cadastro: http://localhost:8080/entregadores/# (método DELETE)
    - Onde # é o número de identificação recebido no momento do cadastramento. <br/>
 <br/>
-Todas as funcionalidades acima podem ser testadas por meio de um cliente REST, como o Postman. <br/>
+Todas as funcionalidades acima podem ser testadas por meio de um cliente REST, como o Postman, simulando as requisições a serem feitas pela camada de visão a ser implementada. <br/>
 <br/>
 <b> Requisitos </b> <br/>
 - Java 21 <br/>
