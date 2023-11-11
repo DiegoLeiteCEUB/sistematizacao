@@ -8,7 +8,7 @@ Aluno: Diego dos Santos Leite - RA 72350086 <br/>
 Construída com o framework Spring, esta aplicação soluciona o problema nr. 1 proposto na sistematização. <br/>
 <br/>
 <b> Instruções para operação </b> <br/>
-Executar a classe EntregadoresApplication em uma máquina virtual Java, com banco de dados MySQL instalado. <br/>
+Executar a classe EntregadoresApplication, presente em <i>entregadores/src/main/java/com/sistematizacao/entregadores</i>, em uma máquina virtual Java, com banco de dados MySQL instalado. <br/>
 Aviso: não foi implementada uma camada de visão para esta API, apenas os controladores e repositório, com o respectivo modelo de dados. <br/>
 Seu acionamento ocorre por meio de requisições HTTP simples, com as seguintes funcionalidades:
 1) Saudação inicial: acessar http://localhost:8080
